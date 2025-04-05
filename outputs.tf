@@ -33,8 +33,6 @@ output "vm_id" {
 output "vm_public_ip_address" {
   description = "The public IP address assigned to the VM (if any)."
   value       = module.compute.public_ip_address
-  # Note: You still need to configure Network Security Group (NSG) rules
-  # in the network module (or separately) to allow SSH (port 22) access.
 }
 
 output "vm_private_ip_address" {
