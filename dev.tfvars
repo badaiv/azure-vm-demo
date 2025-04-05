@@ -1,6 +1,5 @@
 # Terraform variable values for the 'dev' environment
 # Usage: terraform apply -var-file="dev.tfvars"
-# Optional: Specify resource group name if you don't want the generated one
 
 resource_group_name = "tfvm-dev-rg"
 

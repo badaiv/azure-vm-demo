@@ -28,7 +28,7 @@ Prerequisites
 
 1.  **Terraform:** Install Terraform (check required\_providers in main.tf for version constraints, e.g., ~>3.0 for azurerm).
 
-2.  **Azure CLI:** Install Azure CLI and log in using az login. Terraform uses these credentials.
+2.  **Azure CLI:** Install Azure CLI and log in using `az login`. Terraform uses these credentials.
 
 3.  **SSH Key Pair:** You need an SSH public/private key pair. If you don't have one, generate it using ssh-keygen -t rsa -b 4096.
 
@@ -54,7 +54,7 @@ Structure
 │       ├── variables.tf# Compute module inputs  
 │       └── outputs.tf  # Compute module outputs  
 └── README.md           # This file   
-└── NOTES.md           # Answers to qustions
+└── NOTES.md            # Answers to questions
 ```
 
 Configuration
